@@ -87,6 +87,7 @@ function oneHundred() {
 
 
 // ! Task 8(9 page)
+{
 let elems = document.getElementsByTagName('div');
 for (let i = 0; i < elems.length; i++) {
 	elems[i].addEventListener('click', setRed);
@@ -101,7 +102,7 @@ function setGreen() {
 	this.removeEventListener('click', setGreen);
 	this.addEventListener('click', setRed);
 }
-
+}
 
 // ! Task 9(10-11 pages)
 let promise = new Promise((resolve, reject) => {
